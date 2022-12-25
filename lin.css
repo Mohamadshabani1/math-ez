@@ -32,9 +32,9 @@ h2{
     cursor: pointer;
   }
   
-  #NOS {
+  /*#NOS {
     display: none;	
-  }
+  }*/
 .highlight{
     text-transform: uppercase;
     background-color: gold;
