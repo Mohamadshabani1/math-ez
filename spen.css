@@ -33,7 +33,7 @@ h2{
   }
   
   /*#NOS {
-    display: none;	
+    display: none;
   }*/
 /*h1 {
     color: #716468;
@@ -230,6 +230,9 @@ p{
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 20px 10px;
+    position: fixed; 
+    top: 0; 
+    width: 99%;
   }
   
   /* Style the header links */
@@ -274,7 +277,7 @@ p{
   @media screen and (max-width: 500px) {
     .header a {
       float: none;
-      display: block;
+      display: flex;
       text-align: left;
     }
     .header-right {
@@ -315,3 +318,4 @@ p{
   position: relative;
   border-image: repeating-linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89)) 20;
 }
+
